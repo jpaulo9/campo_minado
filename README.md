@@ -3,3 +3,5 @@
 * JavaScript
 * CSS
 * App Mobile
+* Android
+* iOS
