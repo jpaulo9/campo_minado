@@ -2,20 +2,24 @@ import React from 'react'
 import type {Node} from 'react';
 
 import {View, StyleSheet} from 'react-native'
+import { create } from 'react-test-renderer'
 
 export default props =>{
 
     return(
 
+        
         <View style={styles.container}>
 
-            <View style={[styles.flagpole, props.bigger ? styles.flagpoleBirgger:null]} />
-            <View style={[styles.flag, props.bigger ? styles.flagBigger:null]} />
-            <View style={[styles.base1, props.bigger ? styles.base1Bigger:null]} />
-            <View style={[styles.base2, props.bigger ? styles.base2Bigger:null]} />
+        <View style={[styles.flagpole, props.bigger ? styles.flagpoleBirgger:null]} />
+        <View style={[styles.flag, props.bigger ? styles.flagBigger:null]} />
+        <View style={[styles.base1, props.bigger ? styles.base1Bigger:null]} />
+        <View style={[styles.base2, props.bigger ? styles.base2Bigger:null]} />
 
         </View>
 
+        
+        
 
     );
 
